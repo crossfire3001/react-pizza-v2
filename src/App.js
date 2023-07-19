@@ -1,6 +1,6 @@
 import "./App.css";
 
-import "./scss"
+import "./scss/app.scss"
 
 function App() {
   return (
