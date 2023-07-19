@@ -1,5 +1,7 @@
 import "./App.css";
 
+import "./scss"
+
 function App() {
   return (
     <div class="wrapper">
