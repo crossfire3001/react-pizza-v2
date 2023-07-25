@@ -1,4 +1,13 @@
+import React from "react";
+
 function Categories() {
+  const [activeIndex, setActiveIndex] = React.useState(0);
+
+  const onClickCategory = () => {
+    setActiveIndex(3);
+  }
+
+
   return (
     <div className="categories">
       <ul>
